@@ -98,12 +98,13 @@ footer{
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+}
 
 /* Aqui esta lo del carrusel por si queiren customizar
 -------------------------------------------------- */
 
 /* base del carrusel */
-.carousel {
+.carousel{
     margin-bottom: 4rem;
 }
   /* Posicionamiento de la imagen y centralización */
