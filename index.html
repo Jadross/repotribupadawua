@@ -4,24 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Principal | Tarea de Padawan</title>
+    <link rel="stylesheet" href="./scss/custom.css">
+    <link rel="stylesheet" href="./CSS/style-base.css">
+    <title>Pagina Principal | Tarea de Padaung</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-primary" aria-label="navbar" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbar" 
+                aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse justify-content-md-center collapse show" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Página principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cultura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Leyendas y mitos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gastronomía</a>
+                        </li>
+                        <!--
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Ejemplo de Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">1</a></li>
+                                <li><a class="dropdown-item" href="#">2</a></li>
+                                <li><a class="dropdown-item" href="#">3</a></li>
+                            </ul>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <article>esooooo</article>        
-        <section>PENE</section>
+        <article></article>        
+        <section></section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-primary text-center text-secondary">
+        <div class="text-center p-3">
+            © 2023 Free Copyright, CSS by:
+            <a class="text-secondary" href="https://github.com/TwistedSweets" target="_blank">Gomez Estrada Angel Gabriel</a>
+            <p>A cat: /ᐠ .ᆺ. ᐟ\ﾉ</p>
+        </div>
+    </footer>
+
+    <script src="./JS/base.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
