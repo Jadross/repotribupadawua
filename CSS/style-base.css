@@ -83,3 +83,19 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+.parrafos {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.resaltar {
+    color: #FF0000;
+    font-weight: bold;
+}
+.centrado {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
